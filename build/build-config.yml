@@ -18,7 +18,7 @@
 # -
 config:
 # Business Services
-  - name: "builds/upyog/business-services/billing-service"
+  - name: "builds/upyog-stage/business-services/billing-service"
     build:
       - work-dir: "business-services/billing-service"
         image-name: "billing-service"
